@@ -1,0 +1,54 @@
+{
+  "disallowEmptyBlocks": true,
+  "disallowImplicitTypeConversion": ["string"],
+  "disallowKeywords": ["with"],
+  "disallowKeywordsOnNewLine": ["else"],
+  "disallowMixedSpacesAndTabs": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowNodeTypes": ["LabeledStatement"],
+  "disallowQuotedKeysInObjects": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "esnext": true, // uses jscs-dev/esprima-harmony
+  "esprima": "./node_modules/esprima-fb", // need to npm install esprima or esprima-fb, etc
+  "excludeFiles": [],
+  "requireCapitalizedConstructors": true,
+  "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
+  "requireDotNotation": true,
+  "requireMatchingFunctionName": true,
+  "requireObjectKeysOnNewLine": true,
+  "requirePaddingNewLinesAfterBlocks": true,
+  "requirePaddingNewLinesBeforeExport": true,
+  "requirePaddingNewLinesInObjects": true,
+  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+  "requirePaddingNewlinesBeforeKeywords": [
+    "do",
+    "for",
+    "if",
+    "switch",
+    "default",
+    "case",
+    "try",
+    "catch",
+    "void",
+    "while",
+    "with",
+    "return"
+  ],
+  "requireSpaceBeforeObjectValues": true,
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunction": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "validateNewlineAfterArrayElements": {
+    "ignoreBrackets": true
+  },
+  "validateIndentation": 2,
+  "validateParameterSeparator": ", ",
+  "validateQuoteMarks": "'"
+}

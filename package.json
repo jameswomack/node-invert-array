@@ -1,0 +1,39 @@
+{
+  "name": "invert-association",
+  "version": "1.0.0",
+  "description": "key -> association to each in association as key -> key as value",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/node-invert-association.git"
+  },
+  "keywords": [
+    "array",
+    "invert",
+    "key",
+    "association",
+    "swap",
+    "functional",
+    "utility",
+    "map",
+    "hash"
+  ],
+  "author": "james@womack.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameswomack/node-invert-association/issues"
+  },
+  "homepage": "https://github.com/jameswomack/node-invert-association#readme",
+  "devDependencies": {
+    "esprima-fb": "15001.1001.0-dev-harmony-fb",
+    "mocha": "2.2.5"
+  },
+  "dependencies": {
+    "amp-is-array": "1.0.1",
+    "amp-is-object": "1.0.1",
+    "amp-is-string": "1.0.1"
+  }
+}
