@@ -1,6 +1,6 @@
 {
   "name": "invert-association",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "key -> association to each in association as key -> key as value",
   "main": "index.js",
   "scripts": {
