@@ -28,8 +28,7 @@
   },
   "homepage": "https://github.com/jameswomack/node-invert-association#readme",
   "devDependencies": {
-    "esprima-fb": "15001.1001.0-dev-harmony-fb",
-    "mocha": "2.2.5"
+    "mocha": "2.4.5"
   },
   "dependencies": {
     "amp-is-array": "1.0.1",
